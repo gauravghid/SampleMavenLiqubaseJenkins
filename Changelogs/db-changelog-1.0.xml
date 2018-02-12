@@ -8,7 +8,7 @@
         http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   
-    <changeSet id="9" author="CI-jenkins">
+    <changeSet id="10" author="CI-jenkins">
         <sqlFile dbms="xe"
             encoding="utf8"
             path="demo.sql"
