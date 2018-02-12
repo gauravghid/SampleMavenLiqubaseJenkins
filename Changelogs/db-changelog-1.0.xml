@@ -12,6 +12,7 @@
         <sqlFile dbms="xe"
             encoding="utf8"
             path="demo.sql"
+            relativeToChangelogFile="true"
         />
     </changeSet>
 </databaseChangeLog>
