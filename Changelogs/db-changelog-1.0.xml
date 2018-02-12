@@ -11,10 +11,7 @@
     <changeSet id="9" author="CI-jenkins">
         <sqlFile dbms="xe"
             encoding="utf8"
-            endDelimiter="\nGO"
             path="demo.sql"
-            relativeToChangelogFile="true"
-            splitStatements="true"
-            stripComments="true"/>
+        />
     </changeSet>
 </databaseChangeLog>
