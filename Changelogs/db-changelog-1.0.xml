@@ -8,11 +8,16 @@
         http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   
-    <changeSet id="10" author="CI-jenkins">
-        <sqlFile dbms="xe"
-            encoding="utf8"
-            path="demo.sql"
-            relativeToChangelogFile="true"
-        />
+     <changeSet id="11" author="CI_JENKINS">
+        <createTable tableName="department">
+            <column name="id" type="int">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="active" type="boolean" defaultValueBoolean="true"/>
+        </createTable>
     </changeSet>
+   
 </databaseChangeLog>
