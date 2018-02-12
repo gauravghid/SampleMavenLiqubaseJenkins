@@ -1,11 +1,4 @@
---------------------------------------------------------
---  File created - Wednesday-January-31-2018   
---------------------------------------------------------
---------------------------------------------------------
---  DDL for Table DEMOJENKINS
---------------------------------------------------------
-
-  CREATE TABLE "DEMOJENKINSTABLE1" 
-   (	"ID" NUMBER(*,0), 
+CREATE TABLE "DEMOJENKINSTABLE1" 
+(	"ID" NUMBER(*,0), 
 	"TESTNAME" VARCHAR2(50 BYTE)
-   )
+ )
