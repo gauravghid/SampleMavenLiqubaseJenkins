@@ -8,7 +8,7 @@
         http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   
-     <changeSet id="11" author="CI_JENKINS">
+     <changeSet id="12" author="CI_JENKINS">
         <createTable tableName="department">
             <column name="id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
