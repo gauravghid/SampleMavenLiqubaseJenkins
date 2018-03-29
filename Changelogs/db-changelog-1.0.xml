@@ -8,10 +8,10 @@
         http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
   
-     <changeSet id="25" author="CI_JENKINS">
+     <changeSet id="29" author="CI_JENKINS">
        <sqlFile dbms="oracle"
             encoding="utf8"
-            endDelimiter="\nGO"
+            endDelimiter=";"
             path="demo.sql"
             relativeToChangelogFile="true"
             splitStatements="true"
